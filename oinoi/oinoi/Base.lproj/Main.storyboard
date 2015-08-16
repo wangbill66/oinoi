@@ -28,7 +28,6 @@
         <!--Home-->
         <scene sceneID="wS8-RL-EjV">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="jml-E2-Gaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Frf-It-pdt" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DLa-Ct-AmS"/>
@@ -39,20 +38,21 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="fqy-GG-VHF">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="20" width="414" height="716"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="fqy-GG-VHF" firstAttribute="leading" secondItem="jJF-J2-TGD" secondAttribute="leadingMargin" constant="-16" id="7YS-o4-vqh"/>
                             <constraint firstItem="fqy-GG-VHF" firstAttribute="bottom" secondItem="jJF-J2-TGD" secondAttribute="bottomMargin" id="EDt-iE-IoJ"/>
-                            <constraint firstItem="fqy-GG-VHF" firstAttribute="top" secondItem="jJF-J2-TGD" secondAttribute="topMargin" id="ZFw-hs-tny"/>
+                            <constraint firstItem="fqy-GG-VHF" firstAttribute="top" secondItem="jJF-J2-TGD" secondAttribute="topMargin" constant="20" id="ZFw-hs-tny"/>
                             <constraint firstAttribute="trailingMargin" secondItem="fqy-GG-VHF" secondAttribute="trailing" constant="-16" id="xYH-KW-IbH"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Home" image="worldIcon.png" id="xof-15-Bd7"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jml-E2-Gaa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="260" y="649"/>
         </scene>
