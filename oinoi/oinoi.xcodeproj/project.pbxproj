@@ -23,6 +23,7 @@
 		A9C86FB31B813FA7002F802A /* settingIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C86FB21B813FA7002F802A /* settingIcon.png */; };
 		A9C86FB51B813FDB002F802A /* worldIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A9C86FB41B813FDB002F802A /* worldIcon.png */; };
 		A9D81FF81B85035000DFEEE1 /* Demo_640x960.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D81FF71B85035000DFEEE1 /* Demo_640x960.png */; };
+		A9D81FFA1B8537BF00DFEEE1 /* screen.png in Resources */ = {isa = PBXBuildFile; fileRef = A9D81FF91B8537BF00DFEEE1 /* screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		A9C86FB21B813FA7002F802A /* settingIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingIcon.png; sourceTree = "<group>"; };
 		A9C86FB41B813FDB002F802A /* worldIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worldIcon.png; sourceTree = "<group>"; };
 		A9D81FF71B85035000DFEEE1 /* Demo_640x960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Demo_640x960.png; sourceTree = "<group>"; };
+		A9D81FF91B8537BF00DFEEE1 /* screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		A9C86F791B811BDF002F802A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A9D81FF91B8537BF00DFEEE1 /* screen.png */,
 				A9D81FF71B85035000DFEEE1 /* Demo_640x960.png */,
 				A9C86FB41B813FDB002F802A /* worldIcon.png */,
 				A9C86FB21B813FA7002F802A /* settingIcon.png */,
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9C86FB31B813FA7002F802A /* settingIcon.png in Resources */,
+				A9D81FFA1B8537BF00DFEEE1 /* screen.png in Resources */,
 				A9C86FB51B813FDB002F802A /* worldIcon.png in Resources */,
 				A9C86FAB1B813D4B002F802A /* multiplePerson.png in Resources */,
 				A9C86FA01B811EAC002F802A /* progress.png in Resources */,
