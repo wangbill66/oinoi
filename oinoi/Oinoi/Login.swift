@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 class Login: UIViewController {
 
@@ -35,6 +37,24 @@ class Login: UIViewController {
     }
     */
     @IBAction func LoginButton(sender: AnyObject) {
+        if Email.text != "" && Password.text != "" {
+            // Not Empty, Do something.
+            PFUser.logInWithUsernameInBackground(Email.text, password:Password.text) {
+                (user, error) -> Void in
+                if user != nil {
+                    // Yes, User Exists
+                    println("User Exists")
+                } else {
+                    // No, User Doesn't Exist
+                    println ("User doesn't exist")
+                }
+            }
+        } else {
+            // Empty, Notify user
+            println("All Fields Required")
+        }
     }
+    
+    
 
 }

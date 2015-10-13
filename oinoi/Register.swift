@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Parse
+import Bolts
 
 class Register: UIViewController {
     @IBOutlet weak var FirstName: UITextField!
@@ -39,6 +41,34 @@ class Register: UIViewController {
     }
     */
     @IBAction func Register(sender: AnyObject) {
+        var firstName = FirstName.text
+        var lastName = LastName.text
+        var email = Email.text
+        var password = Password.text
+        if firstName != "" && lastName != "" && email != "" && password != "" {
+            userSignUp()
+            
+        } else {
+            println("Not everything was entered")
+        }
     }
+    
+    func userSignUp() {
+        var user = PFUser()
+        user.username = Email.text
+        user.password = Password.text
+        user.email = Email.text
+        user.signUpInBackgroundWithBlock {
+            (succeeded, error) -> Void in
+            if error == nil {
+                // Hooray! Let them use the app now.
+                println("User Signed Up");
+            } else {
+                // Show the errorString somewhere and let the user try again.
+                println ("Error");
+            }
+        }
+    }
+    
 
 }
