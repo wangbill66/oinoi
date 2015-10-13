@@ -11,6 +11,11 @@
 		A9D1F2A21BCAECF40041E646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2A11BCAECF40041E646 /* ViewController.swift */; };
 		A9D1F2A51BCAECF40041E646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D1F2A31BCAECF40041E646 /* Main.storyboard */; };
 		A9D1F2A71BCAECF40041E646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D1F2A61BCAECF40041E646 /* Assets.xcassets */; };
+		A9D1F2D21BCCE7470041E646 /* Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2D11BCCE7470041E646 /* Register.swift */; settings = {ASSET_TAGS = (); }; };
+		A9D1F2D41BCCE8010041E646 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2D31BCCE8010041E646 /* Login.swift */; settings = {ASSET_TAGS = (); }; };
+		A9D1F2D61BCCEA1D0041E646 /* BorrowPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2D51BCCEA1D0041E646 /* BorrowPage.swift */; settings = {ASSET_TAGS = (); }; };
+		A9D1F2D81BCCEAF00041E646 /* LendPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2D71BCCEAF00041E646 /* LendPage.swift */; settings = {ASSET_TAGS = (); }; };
+		A9D1F2DA1BCCEBD20041E646 /* Summary.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2D91BCCEBD20041E646 /* Summary.swift */; settings = {ASSET_TAGS = (); }; };
 		CF9CB1681BCCC50D00C917A9 /* Oinoi_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9CB1671BCCC50D00C917A9 /* Oinoi_Tests.swift */; };
 		CF9CB1721BCCC9D800C917A9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB16E1BCCC9D800C917A9 /* Bolts.framework */; };
 		CF9CB1731BCCC9D800C917A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB16F1BCCC9D800C917A9 /* Parse.framework */; };
@@ -49,6 +54,11 @@
 		A9D1F2B61BCAECF40041E646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D1F2BF1BCAECF40041E646 /* OinoiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OinoiUITests.swift; sourceTree = "<group>"; };
 		A9D1F2C11BCAECF40041E646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9D1F2D11BCCE7470041E646 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Register.swift; path = ../Register.swift; sourceTree = "<group>"; };
+		A9D1F2D31BCCE8010041E646 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		A9D1F2D51BCCEA1D0041E646 /* BorrowPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrowPage.swift; sourceTree = "<group>"; };
+		A9D1F2D71BCCEAF00041E646 /* LendPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendPage.swift; sourceTree = "<group>"; };
+		A9D1F2D91BCCEBD20041E646 /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 		CF9CB1631BCCC50D00C917A9 /* Oinoi Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oinoi Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9CB1661BCCC50D00C917A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF9CB1671BCCC50D00C917A9 /* Oinoi_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oinoi_Tests.swift; sourceTree = "<group>"; };
@@ -104,6 +114,7 @@
 		A9D1F2931BCAECF40041E646 = {
 			isa = PBXGroup;
 			children = (
+				A9D1F2D51BCCEA1D0041E646 /* BorrowPage.swift */,
 				A9D1F29E1BCAECF40041E646 /* Oinoi */,
 				A9D1F2B31BCAECF40041E646 /* OinoiTests */,
 				A9D1F2BE1BCAECF40041E646 /* OinoiUITests */,
@@ -128,6 +139,10 @@
 				A9D1F29F1BCAECF40041E646 /* AppDelegate.swift */,
 				A9D1F2A11BCAECF40041E646 /* ViewController.swift */,
 				A9D1F2A31BCAECF40041E646 /* Main.storyboard */,
+				A9D1F2D91BCCEBD20041E646 /* Summary.swift */,
+				A9D1F2D71BCCEAF00041E646 /* LendPage.swift */,
+				A9D1F2D31BCCE8010041E646 /* Login.swift */,
+				A9D1F2D11BCCE7470041E646 /* Register.swift */,
 				A9D1F2A61BCAECF40041E646 /* Assets.xcassets */,
 				A9D1F2AB1BCAECF40041E646 /* Info.plist */,
 			);
@@ -247,7 +262,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "oinoi" */;
+			buildConfigurationList = A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "Oinoi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -290,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D1F2D61BCCEA1D0041E646 /* BorrowPage.swift in Sources */,
+				A9D1F2D21BCCE7470041E646 /* Register.swift in Sources */,
 				A9D1F2A21BCAECF40041E646 /* ViewController.swift in Sources */,
 				A9D1F2A01BCAECF40041E646 /* AppDelegate.swift in Sources */,
+				A9D1F2D41BCCE8010041E646 /* Login.swift in Sources */,
+				A9D1F2D81BCCEAF00041E646 /* LendPage.swift in Sources */,
+				A9D1F2DA1BCCEBD20041E646 /* Summary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,7 +505,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "oinoi" */ = {
+		A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "Oinoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9D1F2C21BCAECF40041E646 /* Debug */,
@@ -510,6 +530,7 @@
 				CF9CB16C1BCCC50D00C917A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

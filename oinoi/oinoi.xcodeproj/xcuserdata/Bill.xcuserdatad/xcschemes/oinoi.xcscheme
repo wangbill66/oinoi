@@ -48,6 +48,16 @@
                ReferencedContainer = "container:Oinoi.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CF9CB1621BCCC50D00C917A9"
+               BuildableName = "Oinoi Tests.xctest"
+               BlueprintName = "Oinoi Tests"
+               ReferencedContainer = "container:Oinoi.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
