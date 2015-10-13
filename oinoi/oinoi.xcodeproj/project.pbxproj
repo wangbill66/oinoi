@@ -11,20 +11,25 @@
 		A9D1F2A21BCAECF40041E646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2A11BCAECF40041E646 /* ViewController.swift */; };
 		A9D1F2A51BCAECF40041E646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D1F2A31BCAECF40041E646 /* Main.storyboard */; };
 		A9D1F2A71BCAECF40041E646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9D1F2A61BCAECF40041E646 /* Assets.xcassets */; };
-		A9D1F2AA1BCAECF40041E646 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D1F2A81BCAECF40041E646 /* LaunchScreen.storyboard */; };
-		A9D1F2B51BCAECF40041E646 /* OinoiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2B41BCAECF40041E646 /* OinoiTests.swift */; };
-		A9D1F2C01BCAECF40041E646 /* OinoiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2BF1BCAECF40041E646 /* OinoiUITests.swift */; };
+		CF9CB1681BCCC50D00C917A9 /* Oinoi_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9CB1671BCCC50D00C917A9 /* Oinoi_Tests.swift */; };
+		CF9CB1721BCCC9D800C917A9 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB16E1BCCC9D800C917A9 /* Bolts.framework */; };
+		CF9CB1731BCCC9D800C917A9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB16F1BCCC9D800C917A9 /* Parse.framework */; };
+		CF9CB1781BCCD09500C917A9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1771BCCD09500C917A9 /* libsqlite3.dylib */; };
+		CF9CB17B1BCCD0AA00C917A9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1791BCCD0AA00C917A9 /* AudioToolbox.framework */; };
+		CF9CB17E1BCCD10900C917A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB17D1BCCD10900C917A9 /* Foundation.framework */; };
+		CF9CB1801BCCD11200C917A9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB17F1BCCD11200C917A9 /* CFNetwork.framework */; };
+		CF9CB1821BCCD12A00C917A9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1811BCCD12A00C917A9 /* Security.framework */; };
+		CF9CB18A1BCCD18700C917A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1831BCCD18600C917A9 /* CoreGraphics.framework */; };
+		CF9CB18B1BCCD18700C917A9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1841BCCD18600C917A9 /* CoreLocation.framework */; };
+		CF9CB18C1BCCD18700C917A9 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1851BCCD18600C917A9 /* libz.1.1.3.dylib */; };
+		CF9CB18D1BCCD18700C917A9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1861BCCD18700C917A9 /* MobileCoreServices.framework */; };
+		CF9CB18E1BCCD18700C917A9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1871BCCD18700C917A9 /* QuartzCore.framework */; };
+		CF9CB18F1BCCD18700C917A9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1881BCCD18700C917A9 /* StoreKit.framework */; };
+		CF9CB1901BCCD18700C917A9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9CB1891BCCD18700C917A9 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A9D1F2B11BCAECF40041E646 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A9D1F2941BCAECF40041E646 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A9D1F29B1BCAECF40041E646;
-			remoteInfo = Oinoi;
-		};
-		A9D1F2BC1BCAECF40041E646 /* PBXContainerItemProxy */ = {
+		CF9CB1691BCCC50D00C917A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A9D1F2941BCAECF40041E646 /* Project object */;
 			proxyType = 1;
@@ -39,14 +44,29 @@
 		A9D1F2A11BCAECF40041E646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A9D1F2A41BCAECF40041E646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9D1F2A61BCAECF40041E646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A9D1F2A91BCAECF40041E646 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9D1F2AB1BCAECF40041E646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9D1F2B01BCAECF40041E646 /* OinoiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OinoiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D1F2B41BCAECF40041E646 /* OinoiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OinoiTests.swift; sourceTree = "<group>"; };
 		A9D1F2B61BCAECF40041E646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9D1F2BB1BCAECF40041E646 /* OinoiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OinoiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D1F2BF1BCAECF40041E646 /* OinoiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OinoiUITests.swift; sourceTree = "<group>"; };
 		A9D1F2C11BCAECF40041E646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9CB1631BCCC50D00C917A9 /* Oinoi Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oinoi Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF9CB1661BCCC50D00C917A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9CB1671BCCC50D00C917A9 /* Oinoi_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oinoi_Tests.swift; sourceTree = "<group>"; };
+		CF9CB16E1BCCC9D800C917A9 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CF9CB16F1BCCC9D800C917A9 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CF9CB1771BCCD09500C917A9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CF9CB1791BCCD0AA00C917A9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CF9CB17A1BCCD0AA00C917A9 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		CF9CB17D1BCCD10900C917A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF9CB17F1BCCD11200C917A9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CF9CB1811BCCD12A00C917A9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CF9CB1831BCCD18600C917A9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CF9CB1841BCCD18600C917A9 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CF9CB1851BCCD18600C917A9 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		CF9CB1861BCCD18700C917A9 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		CF9CB1871BCCD18700C917A9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CF9CB1881BCCD18700C917A9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CF9CB1891BCCD18700C917A9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,17 +74,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9CB18A1BCCD18700C917A9 /* CoreGraphics.framework in Frameworks */,
+				CF9CB18B1BCCD18700C917A9 /* CoreLocation.framework in Frameworks */,
+				CF9CB18C1BCCD18700C917A9 /* libz.1.1.3.dylib in Frameworks */,
+				CF9CB18D1BCCD18700C917A9 /* MobileCoreServices.framework in Frameworks */,
+				CF9CB18E1BCCD18700C917A9 /* QuartzCore.framework in Frameworks */,
+				CF9CB18F1BCCD18700C917A9 /* StoreKit.framework in Frameworks */,
+				CF9CB1901BCCD18700C917A9 /* SystemConfiguration.framework in Frameworks */,
+				CF9CB1821BCCD12A00C917A9 /* Security.framework in Frameworks */,
+				CF9CB1801BCCD11200C917A9 /* CFNetwork.framework in Frameworks */,
+				CF9CB17E1BCCD10900C917A9 /* Foundation.framework in Frameworks */,
+				CF9CB17B1BCCD0AA00C917A9 /* AudioToolbox.framework in Frameworks */,
+				CF9CB1781BCCD09500C917A9 /* libsqlite3.dylib in Frameworks */,
+				CF9CB1731BCCC9D800C917A9 /* Parse.framework in Frameworks */,
+				CF9CB1721BCCC9D800C917A9 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9D1F2AD1BCAECF40041E646 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9D1F2B81BCAECF40041E646 /* Frameworks */ = {
+		CF9CB1601BCCC50D00C917A9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,7 +107,9 @@
 				A9D1F29E1BCAECF40041E646 /* Oinoi */,
 				A9D1F2B31BCAECF40041E646 /* OinoiTests */,
 				A9D1F2BE1BCAECF40041E646 /* OinoiUITests */,
+				CF9CB1641BCCC50D00C917A9 /* Oinoi Tests */,
 				A9D1F29D1BCAECF40041E646 /* Products */,
+				CF9CB1761BCCC9E200C917A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,8 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				A9D1F29C1BCAECF40041E646 /* Oinoi.app */,
-				A9D1F2B01BCAECF40041E646 /* OinoiTests.xctest */,
-				A9D1F2BB1BCAECF40041E646 /* OinoiUITests.xctest */,
+				CF9CB1631BCCC50D00C917A9 /* Oinoi Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,7 +129,6 @@
 				A9D1F2A11BCAECF40041E646 /* ViewController.swift */,
 				A9D1F2A31BCAECF40041E646 /* Main.storyboard */,
 				A9D1F2A61BCAECF40041E646 /* Assets.xcassets */,
-				A9D1F2A81BCAECF40041E646 /* LaunchScreen.storyboard */,
 				A9D1F2AB1BCAECF40041E646 /* Info.plist */,
 			);
 			path = Oinoi;
@@ -125,6 +152,45 @@
 			path = OinoiUITests;
 			sourceTree = "<group>";
 		};
+		CF9CB1641BCCC50D00C917A9 /* Oinoi Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CB1671BCCC50D00C917A9 /* Oinoi_Tests.swift */,
+				CF9CB1651BCCC50D00C917A9 /* Supporting Files */,
+			);
+			path = "Oinoi Tests";
+			sourceTree = "<group>";
+		};
+		CF9CB1651BCCC50D00C917A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CB1661BCCC50D00C917A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF9CB1761BCCC9E200C917A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF9CB1831BCCD18600C917A9 /* CoreGraphics.framework */,
+				CF9CB1841BCCD18600C917A9 /* CoreLocation.framework */,
+				CF9CB1851BCCD18600C917A9 /* libz.1.1.3.dylib */,
+				CF9CB1861BCCD18700C917A9 /* MobileCoreServices.framework */,
+				CF9CB1871BCCD18700C917A9 /* QuartzCore.framework */,
+				CF9CB1881BCCD18700C917A9 /* StoreKit.framework */,
+				CF9CB1891BCCD18700C917A9 /* SystemConfiguration.framework */,
+				CF9CB1811BCCD12A00C917A9 /* Security.framework */,
+				CF9CB17F1BCCD11200C917A9 /* CFNetwork.framework */,
+				CF9CB17D1BCCD10900C917A9 /* Foundation.framework */,
+				CF9CB1791BCCD0AA00C917A9 /* AudioToolbox.framework */,
+				CF9CB17A1BCCD0AA00C917A9 /* AudioUnit.framework */,
+				CF9CB1771BCCD09500C917A9 /* libsqlite3.dylib */,
+				CF9CB16F1BCCC9D800C917A9 /* Parse.framework */,
+				CF9CB16E1BCCC9D800C917A9 /* Bolts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,41 +211,23 @@
 			productReference = A9D1F29C1BCAECF40041E646 /* Oinoi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A9D1F2AF1BCAECF40041E646 /* OinoiTests */ = {
+		CF9CB1621BCCC50D00C917A9 /* Oinoi Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9D1F2C71BCAECF40041E646 /* Build configuration list for PBXNativeTarget "OinoiTests" */;
+			buildConfigurationList = CF9CB16D1BCCC50D00C917A9 /* Build configuration list for PBXNativeTarget "Oinoi Tests" */;
 			buildPhases = (
-				A9D1F2AC1BCAECF40041E646 /* Sources */,
-				A9D1F2AD1BCAECF40041E646 /* Frameworks */,
-				A9D1F2AE1BCAECF40041E646 /* Resources */,
+				CF9CB15F1BCCC50D00C917A9 /* Sources */,
+				CF9CB1601BCCC50D00C917A9 /* Frameworks */,
+				CF9CB1611BCCC50D00C917A9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A9D1F2B21BCAECF40041E646 /* PBXTargetDependency */,
+				CF9CB16A1BCCC50D00C917A9 /* PBXTargetDependency */,
 			);
-			name = OinoiTests;
-			productName = OinoiTests;
-			productReference = A9D1F2B01BCAECF40041E646 /* OinoiTests.xctest */;
+			name = "Oinoi Tests";
+			productName = "Oinoi Tests";
+			productReference = CF9CB1631BCCC50D00C917A9 /* Oinoi Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A9D1F2BA1BCAECF40041E646 /* OinoiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A9D1F2CA1BCAECF40041E646 /* Build configuration list for PBXNativeTarget "OinoiUITests" */;
-			buildPhases = (
-				A9D1F2B71BCAECF40041E646 /* Sources */,
-				A9D1F2B81BCAECF40041E646 /* Frameworks */,
-				A9D1F2B91BCAECF40041E646 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A9D1F2BD1BCAECF40041E646 /* PBXTargetDependency */,
-			);
-			name = OinoiUITests;
-			productName = OinoiUITests;
-			productReference = A9D1F2BB1BCAECF40041E646 /* OinoiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -193,17 +241,13 @@
 					A9D1F29B1BCAECF40041E646 = {
 						CreatedOnToolsVersion = 7.0;
 					};
-					A9D1F2AF1BCAECF40041E646 = {
-						CreatedOnToolsVersion = 7.0;
-						TestTargetID = A9D1F29B1BCAECF40041E646;
-					};
-					A9D1F2BA1BCAECF40041E646 = {
-						CreatedOnToolsVersion = 7.0;
+					CF9CB1621BCCC50D00C917A9 = {
+						CreatedOnToolsVersion = 6.3;
 						TestTargetID = A9D1F29B1BCAECF40041E646;
 					};
 				};
 			};
-			buildConfigurationList = A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "Oinoi" */;
+			buildConfigurationList = A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "oinoi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +261,7 @@
 			projectRoot = "";
 			targets = (
 				A9D1F29B1BCAECF40041E646 /* Oinoi */,
-				A9D1F2AF1BCAECF40041E646 /* OinoiTests */,
-				A9D1F2BA1BCAECF40041E646 /* OinoiUITests */,
+				CF9CB1621BCCC50D00C917A9 /* Oinoi Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,20 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D1F2AA1BCAECF40041E646 /* LaunchScreen.storyboard in Resources */,
 				A9D1F2A71BCAECF40041E646 /* Assets.xcassets in Resources */,
 				A9D1F2A51BCAECF40041E646 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9D1F2AE1BCAECF40041E646 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9D1F2B91BCAECF40041E646 /* Resources */ = {
+		CF9CB1611BCCC50D00C917A9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,34 +295,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A9D1F2AC1BCAECF40041E646 /* Sources */ = {
+		CF9CB15F1BCCC50D00C917A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9D1F2B51BCAECF40041E646 /* OinoiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A9D1F2B71BCAECF40041E646 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A9D1F2C01BCAECF40041E646 /* OinoiUITests.swift in Sources */,
+				CF9CB1681BCCC50D00C917A9 /* Oinoi_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A9D1F2B21BCAECF40041E646 /* PBXTargetDependency */ = {
+		CF9CB16A1BCCC50D00C917A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A9D1F29B1BCAECF40041E646 /* Oinoi */;
-			targetProxy = A9D1F2B11BCAECF40041E646 /* PBXContainerItemProxy */;
-		};
-		A9D1F2BD1BCAECF40041E646 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A9D1F29B1BCAECF40041E646 /* Oinoi */;
-			targetProxy = A9D1F2BC1BCAECF40041E646 /* PBXContainerItemProxy */;
+			targetProxy = CF9CB1691BCCC50D00C917A9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -298,14 +320,6 @@
 				A9D1F2A41BCAECF40041E646 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A9D1F2A81BCAECF40041E646 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9D1F2A91BCAECF40041E646 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -347,7 +361,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -386,7 +400,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -398,10 +412,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Oinoi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Oinoi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -409,65 +430,62 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Oinoi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Oinoi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		A9D1F2C81BCAECF40041E646 /* Debug */ = {
+		CF9CB16B1BCCC50D00C917A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OinoiTests/Info.plist;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = "Oinoi Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.OinoiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oinoi.app/Oinoi";
 			};
 			name = Debug;
 		};
-		A9D1F2C91BCAECF40041E646 /* Release */ = {
+		CF9CB16C1BCCC50D00C917A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = OinoiTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Oinoi Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.OinoiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Oinoi.app/Oinoi";
-			};
-			name = Release;
-		};
-		A9D1F2CB1BCAECF40041E646 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = OinoiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.OinoiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Oinoi;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		A9D1F2CC1BCAECF40041E646 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = OinoiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.OinoiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Oinoi;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "Oinoi" */ = {
+		A9D1F2971BCAECF40041E646 /* Build configuration list for PBXProject "oinoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9D1F2C21BCAECF40041E646 /* Debug */,
@@ -483,20 +501,13 @@
 				A9D1F2C61BCAECF40041E646 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		A9D1F2C71BCAECF40041E646 /* Build configuration list for PBXNativeTarget "OinoiTests" */ = {
+		CF9CB16D1BCCC50D00C917A9 /* Build configuration list for PBXNativeTarget "Oinoi Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9D1F2C81BCAECF40041E646 /* Debug */,
-				A9D1F2C91BCAECF40041E646 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		A9D1F2CA1BCAECF40041E646 /* Build configuration list for PBXNativeTarget "OinoiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A9D1F2CB1BCAECF40041E646 /* Debug */,
-				A9D1F2CC1BCAECF40041E646 /* Release */,
+				CF9CB16B1BCCC50D00C917A9 /* Debug */,
+				CF9CB16C1BCCC50D00C917A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
