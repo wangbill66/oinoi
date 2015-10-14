@@ -18,7 +18,7 @@ class Settings: UIViewController {
             "Logged out successfully"
 //            self.performSegueWithIdentifier("LogoutSuccessful", sender: self)
             let loginViewController = self.storyboard!.instantiateViewControllerWithIdentifier("LandPage")
-            UIApplication.sharedApplication().keyWindow?.rootViewController = loginViewController
+            //UIApplication.sharedApplication().keyWindow?.rootViewController = loginViewController
         } else {
 
             let alert = UIAlertView()

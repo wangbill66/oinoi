@@ -72,7 +72,11 @@ class Register: UIViewController {
                 // Hooray! Let them use the app now.
                 print("User Signed Up");
                 // Make it go to next screen
-                PFUser.currentUser()
+                var user = PFUser.currentUser()
+                var currentUser:PFUser?
+                currentUser?["borrowed"] = 0 as NSNumber
+                currentUser?["lent"] = 0 as NSNumber
+                currentUser!.saveInBackground()
                 self.performSegueWithIdentifier("RegisterSuccessful", sender: self)
                 
                 
