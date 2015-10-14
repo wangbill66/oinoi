@@ -23,7 +23,7 @@ class Register: UIViewController {
         super.viewDidLoad()
         
         if PFUser.currentUser() != nil {
-            self.performSegueWithIdentifier("LoginSuccessful", sender: self)
+            self.performSegueWithIdentifier("RegisterSuccessful", sender: self)
         }
 
         // Do any additional setup after loading the view.
@@ -71,15 +71,22 @@ class Register: UIViewController {
             if error == nil {
                 // Hooray! Let them use the app now.
                 print("User Signed Up");
-                // Make it go to next screen
-                var user = PFUser.currentUser()
-                var currentUser:PFUser?
-                currentUser?["borrowed"] = 0 as NSNumber
-                currentUser?["lent"] = 0 as NSNumber
-                currentUser!.saveInBackground()
+                /*var query = PFQuery(className: "User")
+                var currentUser = PFUser.currentUser()
+                query.findO
+                query.getObjectWithId(currentUser?["ObjectID"]) {
+                    (object, error) -> Void in
+                    if error != nil {
+                        print(error)
+                    } else {
+                        if let object = object {
+                            object["borrowed"] = 0
+                            object["lent"] = 0
+                        }
+                        object!.saveInBackground()
+                    }
+                }*/
                 self.performSegueWithIdentifier("RegisterSuccessful", sender: self)
-                
-                
             } else {
                 // Show the errorString somewhere and let the user try again.
                 let alert = UIAlertView()
@@ -91,6 +98,5 @@ class Register: UIViewController {
             }
         }
     }
-    
 
 }
