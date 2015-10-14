@@ -17,7 +17,10 @@ class Login: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        if PFUser.currentUser() != nil {
+            self.performSegueWithIdentifier("LoginSuccessful", sender: self)
+        }
         // Do any additional setup after loading the view.
     }
 
@@ -39,19 +42,30 @@ class Login: UIViewController {
     @IBAction func LoginButton(sender: AnyObject) {
         if Email.text != "" && Password.text != "" {
             // Not Empty, Do something.
-            PFUser.logInWithUsernameInBackground(Email.text, password:Password.text) {
+            PFUser.logInWithUsernameInBackground(Email.text!, password:Password.text!) {
                 (user, error) -> Void in
                 if user != nil {
                     // Yes, User Exists
-                    println("User Exists")
+                    print("User Exists")
+                    self.performSegueWithIdentifier("LoginSuccessful", sender: self)
                 } else {
                     // No, User Doesn't Exist
-                    println ("User doesn't exist")
+                    let alert = UIAlertView()
+                    alert.title = "Invalid Credentials"
+                    alert.message = ""
+                    alert.addButtonWithTitle("Close")
+                    alert.show()
+                 
                 }
             }
         } else {
             // Empty, Notify user
-            println("All Fields Required")
+            let alert = UIAlertView()
+            alert.title = "Missing Field"
+            alert.message = ""
+            alert.addButtonWithTitle("Close")
+            alert.show()
+
         }
     }
     

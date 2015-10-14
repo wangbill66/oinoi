@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A93F95591BCE16C30044F25B /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93F95581BCE16C30044F25B /* Settings.swift */; settings = {ASSET_TAGS = (); }; };
 		A9D1F2A01BCAECF40041E646 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F29F1BCAECF40041E646 /* AppDelegate.swift */; };
 		A9D1F2A21BCAECF40041E646 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D1F2A11BCAECF40041E646 /* ViewController.swift */; };
 		A9D1F2A51BCAECF40041E646 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9D1F2A31BCAECF40041E646 /* Main.storyboard */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A93F95581BCE16C30044F25B /* Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		A9D1F29C1BCAECF40041E646 /* Oinoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oinoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9D1F29F1BCAECF40041E646 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9D1F2A11BCAECF40041E646 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +58,7 @@
 		A9D1F2C11BCAECF40041E646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9D1F2D11BCCE7470041E646 /* Register.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Register.swift; path = ../Register.swift; sourceTree = "<group>"; };
 		A9D1F2D31BCCE8010041E646 /* Login.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
-		A9D1F2D51BCCEA1D0041E646 /* BorrowPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorrowPage.swift; sourceTree = "<group>"; };
+		A9D1F2D51BCCEA1D0041E646 /* BorrowPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BorrowPage.swift; path = ../BorrowPage.swift; sourceTree = "<group>"; };
 		A9D1F2D71BCCEAF00041E646 /* LendPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LendPage.swift; sourceTree = "<group>"; };
 		A9D1F2D91BCCEBD20041E646 /* Summary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Summary.swift; sourceTree = "<group>"; };
 		CF9CB1631BCCC50D00C917A9 /* Oinoi Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Oinoi Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,7 +116,6 @@
 		A9D1F2931BCAECF40041E646 = {
 			isa = PBXGroup;
 			children = (
-				A9D1F2D51BCCEA1D0041E646 /* BorrowPage.swift */,
 				A9D1F29E1BCAECF40041E646 /* Oinoi */,
 				A9D1F2B31BCAECF40041E646 /* OinoiTests */,
 				A9D1F2BE1BCAECF40041E646 /* OinoiUITests */,
@@ -139,8 +140,10 @@
 				A9D1F29F1BCAECF40041E646 /* AppDelegate.swift */,
 				A9D1F2A11BCAECF40041E646 /* ViewController.swift */,
 				A9D1F2A31BCAECF40041E646 /* Main.storyboard */,
+				A93F95581BCE16C30044F25B /* Settings.swift */,
 				A9D1F2D91BCCEBD20041E646 /* Summary.swift */,
 				A9D1F2D71BCCEAF00041E646 /* LendPage.swift */,
+				A9D1F2D51BCCEA1D0041E646 /* BorrowPage.swift */,
 				A9D1F2D31BCCE8010041E646 /* Login.swift */,
 				A9D1F2D11BCCE7470041E646 /* Register.swift */,
 				A9D1F2A61BCAECF40041E646 /* Assets.xcassets */,
@@ -307,6 +310,7 @@
 			files = (
 				A9D1F2D61BCCEA1D0041E646 /* BorrowPage.swift in Sources */,
 				A9D1F2D21BCCE7470041E646 /* Register.swift in Sources */,
+				A93F95591BCE16C30044F25B /* Settings.swift in Sources */,
 				A9D1F2A21BCAECF40041E646 /* ViewController.swift in Sources */,
 				A9D1F2A01BCAECF40041E646 /* AppDelegate.swift in Sources */,
 				A9D1F2D41BCCE8010041E646 /* Login.swift in Sources */,
@@ -432,12 +436,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Oinoi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Oinoi;
@@ -450,12 +455,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = BrandAsset;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = Oinoi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Oinoi;
